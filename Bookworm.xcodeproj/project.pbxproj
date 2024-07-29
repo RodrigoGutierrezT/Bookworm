@@ -15,6 +15,7 @@
 		5B91DABB2C572BB700D9FDFA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DABA2C572BB700D9FDFA /* Book.swift */; };
 		5B91DABD2C572F5200D9FDFA /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DABC2C572F5200D9FDFA /* AddBookView.swift */; };
 		5B91DABF2C580E6A00D9FDFA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DABE2C580E6A00D9FDFA /* RatingView.swift */; };
+		5B91DAC12C583CB800D9FDFA /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DAC02C583CB800D9FDFA /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5B91DABA2C572BB700D9FDFA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		5B91DABC2C572F5200D9FDFA /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		5B91DABE2C580E6A00D9FDFA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		5B91DAC02C583CB800D9FDFA /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				5B91DAAA2C56EA7700D9FDFA /* BookwormApp.swift */,
 				5B91DAAC2C56EA7700D9FDFA /* ContentView.swift */,
+				5B91DAC02C583CB800D9FDFA /* EmojiRatingView.swift */,
 				5B91DABC2C572F5200D9FDFA /* AddBookView.swift */,
 				5B91DABE2C580E6A00D9FDFA /* RatingView.swift */,
 				5B91DAB82C57242800D9FDFA /* TestTextEditorView.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				5B91DABB2C572BB700D9FDFA /* Book.swift in Sources */,
 				5B91DAAD2C56EA7700D9FDFA /* ContentView.swift in Sources */,
+				5B91DAC12C583CB800D9FDFA /* EmojiRatingView.swift in Sources */,
 				5B91DAAB2C56EA7700D9FDFA /* BookwormApp.swift in Sources */,
 				5B91DABF2C580E6A00D9FDFA /* RatingView.swift in Sources */,
 				5B91DAB92C57242800D9FDFA /* TestTextEditorView.swift in Sources */,
