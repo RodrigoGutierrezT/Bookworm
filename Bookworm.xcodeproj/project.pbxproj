@@ -12,6 +12,8 @@
 		5B91DAAF2C56EA7800D9FDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DAAE2C56EA7800D9FDFA /* Assets.xcassets */; };
 		5B91DAB22C56EA7800D9FDFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DAB12C56EA7800D9FDFA /* Preview Assets.xcassets */; };
 		5B91DAB92C57242800D9FDFA /* TestTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DAB82C57242800D9FDFA /* TestTextEditorView.swift */; };
+		5B91DABB2C572BB700D9FDFA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DABA2C572BB700D9FDFA /* Book.swift */; };
+		5B91DABD2C572F5200D9FDFA /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DABC2C572F5200D9FDFA /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5B91DAAE2C56EA7800D9FDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B91DAB12C56EA7800D9FDFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B91DAB82C57242800D9FDFA /* TestTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextEditorView.swift; sourceTree = "<group>"; };
+		5B91DABA2C572BB700D9FDFA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		5B91DABC2C572F5200D9FDFA /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				5B91DAAA2C56EA7700D9FDFA /* BookwormApp.swift */,
 				5B91DAAC2C56EA7700D9FDFA /* ContentView.swift */,
+				5B91DABC2C572F5200D9FDFA /* AddBookView.swift */,
 				5B91DAB82C57242800D9FDFA /* TestTextEditorView.swift */,
+				5B91DABA2C572BB700D9FDFA /* Book.swift */,
 				5B91DAAE2C56EA7800D9FDFA /* Assets.xcassets */,
 				5B91DAB02C56EA7800D9FDFA /* Preview Content */,
 			);
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B91DABB2C572BB700D9FDFA /* Book.swift in Sources */,
 				5B91DAAD2C56EA7700D9FDFA /* ContentView.swift in Sources */,
 				5B91DAAB2C56EA7700D9FDFA /* BookwormApp.swift in Sources */,
 				5B91DAB92C57242800D9FDFA /* TestTextEditorView.swift in Sources */,
+				5B91DABD2C572F5200D9FDFA /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
