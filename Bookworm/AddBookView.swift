@@ -17,6 +17,15 @@ struct AddBookView: View {
     @State private var rating = 3
     @State private var genre = "Fantasy"
     @State private var review = ""
+    var isValidForm: Bool {
+        if title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+            || author.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+            || review.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            return false
+        }
+        
+        return true
+    }
     
     let genres = ["Fantasy", "Horror", "Kids", "Mistery", "Poetry", "Romance", "Thriller"]
     
@@ -47,6 +56,7 @@ struct AddBookView: View {
                         dismiss()
                     }
                 }
+                .disabled(isValidForm == false)
             }
             .navigationTitle("Add Book")
         }
