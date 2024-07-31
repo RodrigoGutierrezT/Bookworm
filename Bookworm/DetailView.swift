@@ -41,6 +41,10 @@ struct DetailView: View {
             RatingView(rating: .constant(book.rating))
                 .font(.largeTitle)
             
+            Text(book.completeFormattedDate)
+                .foregroundStyle(.secondary)
+                .foregroundStyle(.secondary)
+                .padding()
         }
         .navigationTitle(book.title)
         .navigationBarTitleDisplayMode(.inline)
